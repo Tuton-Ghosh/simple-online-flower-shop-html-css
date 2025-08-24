@@ -29,7 +29,7 @@ p{
 }
 button{
     width: 177px;
-    height: 64px;  
+    height: 65px;  
     border: none;
     border-radius: 8px;
     color: rgba(255, 255, 255, 1);
@@ -42,6 +42,9 @@ button{
 button:hover{
     color: rgba(229, 84, 115, 1);
     background-color: rgba(255, 255, 255, 1);
+}
+.important{
+    color: #E55473;
 }
 
 /* Header Section Styles */
@@ -148,9 +151,6 @@ header{
     font-weight: 800;
     margin-bottom: 24px;
 }
-.hot-deal .hot-deal-text .important{
-    color: #E55473;
-}
 .hot-deal-box .hot-deal-text *{
     margin-bottom: 24px;
 }
@@ -165,4 +165,60 @@ header{
 .ig .ig-img{
     display: flex;
     justify-content: space-around;
+}
+
+/* Latest-deal Section Styles */
+.latest-deal .bg{
+    margin-top: 124px;
+    height: 450px;
+    background-image: url(../Assets/images/banner_1.png);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bg .section-heading{
+    text-align: center;
+}
+.bg .section-heading .form-box{
+    display: flex;
+    gap: 15px;
+    margin-top: 24px;
+}
+.bg .section-heading .form-box input{
+    width: 700px;
+    height: 65px;
+    padding: 0 22px;
+    font-size: 16px;
+    font-weight: 400;
+    border: 0;
+}
+
+/* Footer Section Styles */
+.footer{
+    margin-top: 128px;
+    height: 450px;
+    background-color:  rgba(17, 16, 16, 1);
+    text-align: center;
+}
+.footer .footer-content{
+    padding-top: 150px;
+}
+.footer .footer-content *{
+    margin-bottom: 24px;
+}
+.footer .footer-content h1{
+    font-size: 48px;
+    font-weight: 800;
+    color: #FFFFFF;
+}
+.footer .footer-content p{
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 18px;
+    font-weight: 400;
+}
+.footer .footer-content .copyr{
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 16px;
+    font-weight: 400;
 }
